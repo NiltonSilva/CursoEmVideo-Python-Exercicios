@@ -1,0 +1,8 @@
+print('FAÇA UM PROGRAMA QUE LEIA ALGO PELO TECLADO E MOSTRE NA \nTELA O SEU TIPO PRIMITIVO E TODAS AS INFORMAÇÕES \nPOSSÍVEIS SOBRE ELE.')
+print()
+algo = input('Digite algo: ')
+print(type(algo))
+print(algo.format())
+print('É letra maiuscula?', algo.isupper())
+print('É letra minuscula?', algo.islower())
+print('Tem espaço?', algo.isspace())
