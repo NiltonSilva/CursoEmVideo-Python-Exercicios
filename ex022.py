@@ -8,7 +8,7 @@ print('Seu nome em maiúsculo é {}'.format(nome.upper()))
 # Nome em minusculo
 print('Seu nome em minúsculo é {}'.format(nome.lower()))
 
-#
+# Nome completo sem os espaços em branco
 print('Seu nome ao todo tem {} letras'.format(len(nome) - nome.count(' ')))
 
 # Contar quantas letras tem o primeiro nome (1º - separar as palavras; 2º - contar qtos caracteres na primeira palavra
